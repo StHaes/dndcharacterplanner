@@ -38,7 +38,6 @@
                                         <state key="normal" title="Clear"/>
                                         <connections>
                                             <action selector="setCharacterNameLabel:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TZ7-4j-7rA"/>
-                                            <action selector="setName:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6kO-2A-QN5"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -53,9 +52,8 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="changeCharacterName" destination="Q11-Au-7Yq" id="auc-hW-LTs"/>
-                        <outlet property="characterName" destination="cfa-qc-uh6" id="mE6-iZ-cVj"/>
-                        <outlet property="name" destination="cfa-qc-uh6" id="udH-Id-Gvh"/>
+                        <outlet property="characterName" destination="Ndc-se-bFq" id="ogU-Lq-jGU"/>
+                        <outlet property="name" destination="cfa-qc-uh6" id="aH9-IW-wQV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

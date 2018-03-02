@@ -11,14 +11,14 @@ import UIKit
 class ViewController: UIViewController,UITextFieldDelegate {
     
     //properties
+    
     @IBOutlet weak var characterName: UITextField!
     @IBOutlet weak var name: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad();
         characterName.delegate = self;
-        
-    }
+        }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning();
