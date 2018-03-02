@@ -8,17 +8,40 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class ViewController: UIViewController,UITextFieldDelegate {
+    
+    //properties
+    @IBOutlet weak var characterName: UITextField!
+    @IBOutlet weak var name: UILabel!
+    
     override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        super.viewDidLoad();
+        characterName.delegate = self;
+        
     }
-
+    
     override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
+        super.didReceiveMemoryWarning();
         // Dispose of any resources that can be recreated.
     }
+    //textfieldelegates
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        characterName.resignFirstResponder();
+        return true;
+    }
+    
+    func textFieldDidEndEditing(_ textField: UITextField) {
+        name.text = characterName.text;
+    }
+    
+    //actions
+    
+    @IBAction func setCharacterNameLabel(_ sender: UIButton) {
+        name.text = " ";
+    }
+    
+    
 
 
 }
