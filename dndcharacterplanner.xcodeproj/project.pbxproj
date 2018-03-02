@@ -47,6 +47,7 @@
 		27FF558D2049D6A4008B436D /* dndcharacterplannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dndcharacterplannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27FF55912049D6A4008B436D /* dndcharacterplannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dndcharacterplannerUITests.swift; sourceTree = "<group>"; };
 		27FF55932049D6A4008B436D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27FF559F2049EB81008B436D /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +78,7 @@
 		27FF55652049D6A4008B436D = {
 			isa = PBXGroup;
 			children = (
+				27FF559F2049EB81008B436D /* readme.md */,
 				27FF55702049D6A4008B436D /* dndcharacterplanner */,
 				27FF55852049D6A4008B436D /* dndcharacterplannerTests */,
 				27FF55902049D6A4008B436D /* dndcharacterplannerUITests */,
